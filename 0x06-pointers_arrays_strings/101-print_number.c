@@ -44,5 +44,3 @@ void print_number(int n)
 		j = j / 10;
 	}
 }
-	return (s);
-}
