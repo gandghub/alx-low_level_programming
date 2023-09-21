@@ -5,8 +5,9 @@
  * @src: string to be concatenated
  * Return: Always 0.
  */
+ {
 char *_strcat(char *dest, char *src)
-{
+
 	int lengthD, lengthS;
 
 	lengthD = 0;
@@ -23,4 +24,4 @@ char *_strcat(char *dest, char *src)
 	}
 	*(dest + lengthD) = '\0';
 	return (dest);
-
+}
